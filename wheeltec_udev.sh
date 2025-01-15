@@ -3,5 +3,3 @@ sudo chmod 644 /etc/udev/rules.d/wheeltec_fdi_imu_gnss.rules
 service udev reload
 sleep 2
 service udev restart
-
-
