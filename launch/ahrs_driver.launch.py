@@ -13,7 +13,7 @@ from launch_ros.actions import Node
 # )
 def generate_launch_description():
     ahrs_driver=Node(
-        package="fdilink_ahrs",
+        package="n100_mini_ros",
         executable="ahrs_driver_node",
         parameters=[{'if_debug_': False,
             'serial_port_':'/dev/fdilink_ahrs',
